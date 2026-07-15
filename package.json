@@ -1,0 +1,18 @@
+{
+  "name": "transcriptapi-bot",
+  "version": "1.0.0",
+  "description": "Automated TranscriptAPI account creation bot with Gmail verification",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "auth": "node src/gmail.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "playwright": "^1.52.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

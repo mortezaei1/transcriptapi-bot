@@ -1,0 +1,17 @@
+{
+  "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "chromeProfilePath": "",
+  "chromeProfileName": "Default",
+  "gmailCredentialsPath": "./credentials.json",
+  "gmailTokenPath": "./token.json",
+  "outputCsvPath": "./data/accounts.csv",
+  "outputJsonPath": "./data/accounts.json",
+  "errorsDir": "./errors",
+  "maxAccounts": 0,
+  "delayBetweenAccounts": 5000,
+  "headless": false,
+  "maxRetries": 3,
+  "navigationTimeout": 30000,
+  "gmailPollInterval": 3000,
+  "gmailPollTimeout": 120000
+}

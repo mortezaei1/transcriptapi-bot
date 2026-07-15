@@ -1,0 +1,13 @@
+node_modules/
+
+# Secrets & sensitive data — never commit these
+token.json
+credentials.json
+keys.txt
+config.json
+
+# Runtime output
+data/
+errors/
+bot.log
+*.log
